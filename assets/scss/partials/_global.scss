@@ -64,11 +64,11 @@ body {
     font-family: 'Lato';
 
     &:focus {
-      color: lighten($dark-gray, 10%);
+      color: lighten($dark-gray, 20%);
     }
 
     &:hover {
-      color: lighten($dark-gray, 10%);
+      color: lighten($dark-gray, 20%);
     }
   }
 
