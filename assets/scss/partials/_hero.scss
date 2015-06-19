@@ -1,0 +1,73 @@
+.hero {
+  width: 100%;
+  background-color: $primary;
+  font-color: $primary;
+  text-align: center;
+  color: #fff;
+  padding: 1.5em 0 3em;
+    
+.hero-content {
+   clear: both;
+}
+    
+  img {
+    width: 7em;
+    margin-bottom: 2em;
+  }
+    
+  h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+}
+
+.logo-spot {
+  @include span-columns(4);
+  float: left;
+  text-align: left;
+  /*margin-top: 1.25em;*/
+  @include media(small) {
+    @include span-columns(4);
+    }
+  img {
+    width: 3.5em;
+  }
+}
+
+.site-nav {
+  @include span-columns(4);
+  float: right;
+  text-align: right;
+  margin-top: 1.5em;
+  @include media(small) {
+    @include span-columns(4);
+    }
+
+  ul {
+    @include row();
+      
+      li {
+        font-family: $lato;
+        font-weight: 700;
+        text-transform: uppercase;
+          
+          a {
+            color: #fff;
+          
+              &:hover {
+                color: #fff;
+                text-decoration: none;
+              }
+          }
+      }
+  }
+
+  .page-link {
+    line-height: 54px;
+    float: right;
+    margin-left: 20px;
+  }
+}
+
+

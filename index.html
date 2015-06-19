@@ -1,0 +1,37 @@
+---
+layout: home
+---
+  <ul class="featured-post-list">
+    {% for post in site.posts limit:3 %}
+      <li>
+      <div class="portfolio-item">
+       {% if post.lead == True %}
+       <img src="assets/img/portfolio-items/{{ post.image-wide }}" alt="{{post.title}}">
+        {% else %}
+         <img src="assets/img/portfolio-items/{{ post.image-lead }}" alt="{{ post.title }}">
+          {% endif %}
+       <span class="portfolio-overlay" style="background-color:#{{ post.color }};">
+        <span class="post-meta">{{ post.categories }}</span>
+        <h3>{{ post.title }}</h3>
+          <a class="white hollow-button" href="{{ post.url | prepend: site.baseurl }}" onMouseOver="this.style.color='#{{ post.color }}'" onMouseOut="this.style.color='#ffffff'">View Case Study</a>
+          </span>
+          </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <ul class="bottom-post-list">
+      {% for post in site.posts offset:3 limit:4  %}
+      <li>
+          <div class="bottom-portfolio-item">
+              <img src="assets/img/portfolio-items/{{ post.image-bottom }}" alt="{{ post.title }}">
+              <span class="portfolio-overlay" style="background-color: #{{ post.color }};">
+                  <span class="post-meta">{{ post.categories }}</span>
+                  <h4>{{ post.title }}</h4>
+                  <a class="white hollow-button" href="{{ post.url | prepend: site.baseurl }}" onMouseOver="this.style.color='#{{ post.color}}'" onMouseOut="this.style.color='#ffffff'">View Case Study</a>
+              </span>
+          </div>
+      </li>
+      {% endfor %}
+  </ul>
+
+ <!--style="background-image: url('assets/img/portfolio-items/{{ post.image }}');"-->

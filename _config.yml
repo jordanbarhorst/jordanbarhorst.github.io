@@ -1,0 +1,18 @@
+title: "Jordan Barhorst - Designing Websites in Cincinnati"
+author: "Jordan Barhorst"
+email: jordan.barhorst@gmail.com
+keywords: "web design, web, cincinnati, development, web development, web designer, design, ohio"
+description: "Jordan Barhorst is a front end web designer and developer living in Cincinnati Ohio. This is his portfolio website."
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jordanbarhorst.com" # the base hostname & protocol for your site
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "autolink", "tables", "no_intra_emphasis", "strikethrough", "underline", "quote", "footnotes"]
+
+exclude: ['assets/src', 'node_modules', 'package.json', 'gulpfile.js', 'LICENSE', 'README.md', 'bourbonify-jekyll.sublime-project', 'bower_components', 'bower.json']
+
+timezone: Eastern
+
+permalink: none
