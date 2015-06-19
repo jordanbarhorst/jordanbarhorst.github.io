@@ -36,9 +36,9 @@ body {
   $sliding-panel-color-hover: #fff;
   $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
-  @include position(fixed, 0px auto 0px 0px);
+  @include position(fixed, 0px 100% 0px auto);
   @include size(220px 100%);
-  @include transform(translateX(-220px));
+  @include transform(translateX(110%));
   @include transition(all 0.25s linear);
   background: $sliding-panel-background;
   z-index: 999999;
@@ -52,15 +52,16 @@ body {
 
   li {
     list-style: none;
+    padding: .5em auto;
   }
 
   li a {
-    border-bottom: $sliding-panel-border;
     color: $sliding-panel-color;
     display: block;
     font-weight: bold;
-    padding: 1em;
+    padding: .5em 1em;
     text-decoration: none;
+    font-family: 'Lato';
 
     &:focus {
       background-color: $sliding-panel-background-focus;
