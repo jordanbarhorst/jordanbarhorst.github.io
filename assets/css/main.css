@@ -4484,7 +4484,7 @@ body {
   text-align: center;
   color: #fff;
   padding: 1.5em 0 3em;
-  max-height: 90vh; }
+  min-height: 90vh; }
   .hero .hero-content {
     clear: both; }
   .hero img {
