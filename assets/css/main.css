@@ -4563,10 +4563,16 @@ body {
   .hero-nav-bar.wrapper {
     padding-bottom: 0; }
 
-  .hero-content h1 {
-    font-size: 100px; }
-  .hero-content h2 {
-    font-size: 2em; } }
+  .hero-content {
+    padding-top: 0; }
+    .hero-content img {
+      margin-bottom: .5em; }
+    .hero-content h1 {
+      font-size: 100px; }
+    .hero-content h2 {
+      font-size: 1.8em; }
+    .hero-content a {
+      line-height: 5em; } }
 /* -------------------------------------------------------------------------*/
 /* Layout */
 

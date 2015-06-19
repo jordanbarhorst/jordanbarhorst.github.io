@@ -83,12 +83,22 @@
     }
     
     .hero-content {
+        
+        padding-top: 0;
+        
+        img {
+            margin-bottom: .5em;
+        }
         h1 {
             font-size: 100px;
         }
         
         h2 {
-            font-size: 2em;
+            font-size: 1.8em;
+        }
+        
+        a {
+            line-height: 5em;
         }
     }
 }
