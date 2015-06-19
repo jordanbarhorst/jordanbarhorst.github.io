@@ -41,7 +41,7 @@
   @include span-columns(4);
   float: right;
   text-align: right;
-  margin-top: 1.5em;
+  margin-top: 1.25em;
   @include media(small) {
     @include span-columns(4);
     }
@@ -73,6 +73,11 @@
 }
 
 @media screen and ( max-height: 720px ){
+    
+    .hero-nav-bar.wrapper {
+        padding-bottom: 0;
+    }
+    
     .hero-content {
         h1 {
             font-size: 100px;
