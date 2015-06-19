@@ -4376,7 +4376,7 @@ body {
     margin: 0; }
   .sliding-panel-content li {
     list-style: none;
-    padding: .5em auto; }
+    padding: 1em auto; }
   .sliding-panel-content li a {
     color: #fff;
     display: block;
