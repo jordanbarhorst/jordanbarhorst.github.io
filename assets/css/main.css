@@ -4372,11 +4372,11 @@ body {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
   .sliding-panel-content ul {
-    padding: 0;
+    padding: 1em !important;
     margin: 0; }
   .sliding-panel-content li {
     list-style: none;
-    padding: 1em auto; }
+    padding: .5em auto; }
   .sliding-panel-content li a {
     color: #fff;
     display: block;
