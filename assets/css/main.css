@@ -4385,9 +4385,9 @@ body {
     text-decoration: none;
     font-family: 'Lato'; }
     .sliding-panel-content li a:focus {
-      color: lighten #333, 30%; }
+      color: #4d4d4d; }
     .sliding-panel-content li a:hover {
-      color: lighten #333, 30%; }
+      color: #4d4d4d; }
   .sliding-panel-content.is-visible {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
