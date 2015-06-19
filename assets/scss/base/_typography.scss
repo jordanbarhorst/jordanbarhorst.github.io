@@ -9,12 +9,12 @@ $header-font-family: $base-font-family;
 
 @font-face {
     font-family: Tallow;
-    src: url('/assets/scss/base/tallow_sketch-webfont.eot');
-    src: url('/assets/scss/base/tallow_sketch-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/scss/base/tallow_sketch-webfont.woff2') format('woff2'),
-         url('/assets/scss/base/tallow_sketch-webfont.woff') format('woff'),
-         url('/assets/scss/base/tallow_sketch-webfont.ttf') format('truetype'),
-         url('/assets/scss/base/tallow_sketch-webfont.svg#tallowsketch') format('svg');
+    src: url('tallow_sketch-webfont.eot');
+    src: url('tallow_sketch-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tallow_sketch-webfont.woff2') format('woff2'),
+         url('tallow_sketch-webfont.woff') format('woff'),
+         url('tallow_sketch-webfont.ttf') format('truetype'),
+         url('tallow_sketch-webfont.svg#tallowsketch') format('svg');
     font-weight: normal;
     font-style: normal;
 
