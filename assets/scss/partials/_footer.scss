@@ -1,11 +1,36 @@
 .site-footer {
   @include span-columns(12);
   @include omega();
-  color: $medium-gray;
+  color: #fff;
+  text-align: center;
   background-color: $primary;
   font-size: 15px;
   padding-top: $gutter;
   width: 100%;
+    
+  img {
+    width: 3.5em;
+    margin-bottom: 1em;
+  }
+
+  h5 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+    
+  p {
+    color: darken($primary, 30%);
+      
+    a {
+      color: darken($primary,30%);
+      transform: color ease .5s;
+        
+        &:hover {
+          color: darken($primary, 50%);
+        }
+    }
+  }
 
   div {
     overflow: hidden;

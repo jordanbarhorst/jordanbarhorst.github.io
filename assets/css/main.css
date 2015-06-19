@@ -6045,13 +6045,28 @@ ul, ol {
   margin-right: 2.5641%;
   width: 120.51282%;
   margin-right: 0;
-  color: #999;
+  color: #fff;
+  text-align: center;
   background-color: #d32f2f;
   font-size: 15px;
   padding-top: 30px;
   width: 100%; }
   .site-footer:last-child {
     margin-right: 0; }
+  .site-footer img {
+    width: 3.5em;
+    margin-bottom: 1em; }
+  .site-footer h5 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .05em;
+    text-transform: uppercase; }
+  .site-footer p {
+    color: #571212; }
+    .site-footer p a {
+      color: #571212;
+      transform: color ease .5s; }
+      .site-footer p a:hover {
+        color: #020101; }
   .site-footer div {
     overflow: hidden; }
 
