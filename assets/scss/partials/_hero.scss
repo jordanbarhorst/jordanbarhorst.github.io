@@ -75,7 +75,7 @@
 @media screen and ( max-height: 720px ){
     
     .hero {
-        max-height: 90vh;
+        min-height: 90vh;
     }
     
     .hero-nav-bar.wrapper {
