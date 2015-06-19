@@ -36,7 +36,7 @@ body {
   $sliding-panel-color-hover: #fff;
   $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
-  @include position(fixed, 0px 100% 0px auto);
+  @include position(fixed, 0px 0px 0px auto);
   @include size(220px 100%);
   @include transform(translateX(110%));
   @include transition(all 0.25s linear);
