@@ -6061,12 +6061,13 @@ ul, ol {
     letter-spacing: .05em;
     text-transform: uppercase; }
   .site-footer p {
-    color: #571212; }
+    color: #ab2424; }
     .site-footer p a {
-      color: #571212;
-      transform: color ease .5s; }
+      color: #ab2424;
+      transform: color ease .5s;
+      text-decoration: underline; }
       .site-footer p a:hover {
-        color: #020101; }
+        color: #571212; }
   .site-footer div {
     overflow: hidden; }
 
