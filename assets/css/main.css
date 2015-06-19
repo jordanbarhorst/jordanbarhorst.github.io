@@ -4384,11 +4384,6 @@ body {
     padding: .5em 1em;
     text-decoration: none;
     font-family: 'Lato'; }
-    .sliding-panel-content li a:focus {
-      background-color: #4d4d4d; }
-    .sliding-panel-content li a:hover {
-      background-color: #477DCA;
-      color: #fff; }
   .sliding-panel-content.is-visible {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);

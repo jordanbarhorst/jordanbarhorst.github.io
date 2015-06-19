@@ -62,15 +62,6 @@ body {
     padding: .5em 1em;
     text-decoration: none;
     font-family: 'Lato';
-
-    &:focus {
-      background-color: $sliding-panel-background-focus;
-    }
-
-    &:hover {
-      background-color: $sliding-panel-background-hover;
-      color: $sliding-panel-color-hover;
-    }
   }
 
   &.is-visible {
