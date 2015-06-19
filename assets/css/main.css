@@ -4556,6 +4556,11 @@ body {
     float: right;
     margin-left: 20px; }
 
+@media screen and (max-height: 720px) {
+  .hero-content h1 {
+    font-size: 100px; }
+  .hero-content h2 {
+    font-size: 2em; } }
 /* -------------------------------------------------------------------------*/
 /* Layout */
 
