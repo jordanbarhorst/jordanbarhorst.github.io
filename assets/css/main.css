@@ -4029,7 +4029,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility; }
 
 h1 {
-  font-family: "Tallow";
+  font-family: "Tallow", "Slabo 27px", Georgia, serif;
   font-size: 2.5em; }
 
 h2 {
@@ -4354,16 +4354,16 @@ body {
 .sliding-panel-content {
   position: fixed;
   top: 0px;
-  right: 0px;
+  right: auto;
   bottom: 0px;
-  left: auto;
+  left: 0px;
   width: 300px;
   height: 100%;
-  -webkit-transform: translateX(110%);
-  -moz-transform: translateX(110%);
-  -ms-transform: translateX(110%);
-  -o-transform: translateX(110%);
-  transform: translateX(110%);
+  -webkit-transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  transform: translateX(-300px);
   -webkit-transition: all 0.25s linear;
   -moz-transition: all 0.25s linear;
   transition: all 0.25s linear;
