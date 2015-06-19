@@ -37,8 +37,8 @@ body {
   $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
   @include position(fixed, 0px auto 0px 0px);
-  @include size(300px 100%);
-  @include transform(translateX(-300px));
+  @include size(250px 100%);
+  @include transform(translateX(-250px));
   @include transition(all 0.25s linear);
   background: $sliding-panel-background;
   z-index: 999999;
