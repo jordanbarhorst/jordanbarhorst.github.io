@@ -6246,6 +6246,11 @@ body {
     .featured-post-list > li:nth-child(2) .portfolio-overlay h3, .featured-post-list > li:nth-child(3) .portfolio-overlay h3 {
       font-size: 1.75em; }
 
+  .bottom-portfolio-item .portfolio-overlay .hero h1 {
+    line-height: 115px;
+    margin-bottom: .15em; }
+  .bottom-portfolio-item .portfolio-overlay .hero .big-break {
+    display: none; }
   .bottom-portfolio-item .portfolio-overlay a {
     line-height: 3em;
     border: 3px solid #fff;
@@ -6253,13 +6258,25 @@ body {
   .bottom-portfolio-item .portfolio-overlay h4 {
     font-size: 1.25em; } }
 @media (max-width: 767px) {
+  .hero-nav-bar.wrapper {
+    padding: 0 2em; }
+
   .featured-post-list > li {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 100% !important; }
 
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+    padding-top: 10%; }
+
   .bottom-post-list {
-    display: none; } }
+    display: none; }
+
+  .featured-post-list > li .portfolio-item .portfolio-overlay {
+    opacity: 0.95; }
+
+  .site-footer {
+    padding-top: 155px; } }
 .site-header {
   float: left;
   display: block;
