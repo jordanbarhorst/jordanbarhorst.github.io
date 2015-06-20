@@ -6238,7 +6238,7 @@ body {
       line-height: 3em;
       border: 3px solid #fff; }
     .featured-post-list > li:nth-child(2) .portfolio-overlay:hover h3, .featured-post-list > li:nth-child(3) .portfolio-overlay:hover h3 {
-      font-size: 1.8em; }
+      font-size: 1.75em; }
 
   .bottom-portfolio-item .portfolio-overlay {
     padding-top: 25%; }
