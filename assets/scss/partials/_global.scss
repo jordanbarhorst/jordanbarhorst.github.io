@@ -107,13 +107,13 @@ body {
 
 
 @media (max-width: 1400px) {
-  .featured-post-list > li:nth-child(2) .portfolio-overlay:hover, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
      padding-top: 6%;
   }
 }
 
 @media (max-width: 1050px) {
-  .featured-post-list > li:nth-child(2) .portfolio-overlay:hover, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
      padding-top: 4%;
      
       a {
