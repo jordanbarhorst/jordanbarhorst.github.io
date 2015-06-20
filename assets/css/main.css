@@ -6236,15 +6236,15 @@ body {
     padding-top: 4%; }
     .featured-post-list > li:nth-child(2) .portfolio-overlay:hover a, .featured-post-list > li:nth-child(3) .portfolio-overlay:hover a {
       line-height: 3em;
-      border: 3px; }
+      border: 3px solid #fff; }
     .featured-post-list > li:nth-child(2) .portfolio-overlay:hover h3, .featured-post-list > li:nth-child(3) .portfolio-overlay:hover h3 {
       font-size: 1.8em; }
 
   .bottom-portfolio-item .portfolio-overlay {
-    margin-top: 25%; }
+    padding-top: 25%; }
     .bottom-portfolio-item .portfolio-overlay a {
       line-height: 3em;
-      border: 3px; }
+      border: 3px solid #fff; }
     .bottom-portfolio-item .portfolio-overlay h4 {
       font-size: 1.25em; } }
 .site-header {
