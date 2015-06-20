@@ -6237,6 +6237,12 @@ body {
   .bottom-portfolio-item .portfolio-overlay {
     padding-top: 25%; } }
 @media (max-width: 1050px) {
+  .hero h1 {
+    line-height: 115px;
+    margin-bottom: .15em; }
+  .hero .big-break {
+    display: none; }
+
   .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
     padding-top: 4%; }
     .featured-post-list > li:nth-child(2) .portfolio-overlay a, .featured-post-list > li:nth-child(3) .portfolio-overlay a {
@@ -6246,11 +6252,6 @@ body {
     .featured-post-list > li:nth-child(2) .portfolio-overlay h3, .featured-post-list > li:nth-child(3) .portfolio-overlay h3 {
       font-size: 1.75em; }
 
-  .bottom-portfolio-item .portfolio-overlay .hero-content h1 {
-    line-height: 115px;
-    margin-bottom: .15em; }
-  .bottom-portfolio-item .portfolio-overlay .hero-content .big-break {
-    display: none; }
   .bottom-portfolio-item .portfolio-overlay a {
     line-height: 3em;
     border: 3px solid #fff;
