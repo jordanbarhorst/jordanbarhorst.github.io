@@ -6256,7 +6256,10 @@ body {
   .featured-post-list > li {
     width: 100% !important;
     max-width: 100% !important;
-    min-width: 100% !important; } }
+    min-width: 100% !important; }
+
+  .bottom-post-list {
+    display: none; } }
 .site-header {
   float: left;
   display: block;
