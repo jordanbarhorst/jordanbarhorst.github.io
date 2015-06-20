@@ -104,3 +104,10 @@ body {
 }
 
 // Based on code by Diego Eis
+
+
+@media (max-width: 1400px) {
+  .featured-post-list > li:nth-child(2) .portfolio-overlay:hover, .featured-post-list > li:nth-child(3) .portfolio-overlay:hover {
+     padding-top: 6%;
+  }
+}

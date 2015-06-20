@@ -6228,6 +6228,9 @@ body {
   .sliding-panel-button img {
     height: 1.3em; }
 
+@media (max-width: 1400px) {
+  .featured-post-list > li:nth-child(2) .portfolio-overlay:hover, .featured-post-list > li:nth-child(3) .portfolio-overlay:hover {
+    padding-top: 6%; } }
 .site-header {
   float: left;
   display: block;
