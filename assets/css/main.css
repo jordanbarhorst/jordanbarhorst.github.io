@@ -6236,7 +6236,8 @@ body {
     padding-top: 4%; }
     .featured-post-list > li:nth-child(2) .portfolio-overlay a, .featured-post-list > li:nth-child(3) .portfolio-overlay a {
       line-height: 3em;
-      border: 3px solid #fff; }
+      border: 3px solid #fff;
+      padding: .5em 1em; }
     .featured-post-list > li:nth-child(2) .portfolio-overlay h3, .featured-post-list > li:nth-child(3) .portfolio-overlay h3 {
       font-size: 1.75em; }
 
