@@ -5900,6 +5900,9 @@ a {
   .bottom-portfolio-item .portfolio-overlay h4 {
     font-size: 1.25em; } }
 @media (max-width: 767px) {
+  .hero {
+    max-height: 70vh; }
+
   .hero-nav-bar.wrapper {
     padding: 0 2em; }
 
