@@ -5901,7 +5901,7 @@ a {
     font-size: 1.25em; } }
 @media (max-width: 767px) {
   .hero {
-    min-height: 0 !important; }
+    min-height: 0vh !important; }
 
   .hero-nav-bar.wrapper {
     padding: 0 2em; }
