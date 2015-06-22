@@ -92,6 +92,9 @@
 
 @media (max-width: 767px) {
     
+    .hero {
+        min-height: 0!important;
+    }
     
     .hero-nav-bar.wrapper {
         padding: 0 2em;
@@ -120,5 +123,18 @@
     }
     
     .site-footer {
+    }
+}
+
+@media (max-width: 700px) {
+    .hero {
+        
+        h1 {
+            font-size: 80px;
+        }
+        
+        h2 {
+            font-size: 1.7em;
+        }
     }
 }

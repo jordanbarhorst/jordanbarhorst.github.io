@@ -5900,6 +5900,9 @@ a {
   .bottom-portfolio-item .portfolio-overlay h4 {
     font-size: 1.25em; } }
 @media (max-width: 767px) {
+  .hero {
+    min-height: 0 !important; }
+
   .hero-nav-bar.wrapper {
     padding: 0 2em; }
 
@@ -5919,6 +5922,11 @@ a {
 
   .featured-post-list > li .portfolio-item .portfolio-overlay {
     opacity: 0.95; } }
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: 80px; }
+  .hero h2 {
+    font-size: 1.7em; } }
 body {
   background-color: white; }
 
