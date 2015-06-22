@@ -153,7 +153,7 @@
     }
     
     .featured-post-list > li:nth-child(1) .portfolio-overlay {
-        padding-top: 10%;
+        padding-top: 15%;
     }
     
     .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
@@ -163,6 +163,15 @@
 
 @media (max-width: 363px) {
     .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
-        padding-top: 1%;
+        padding-top: 3%;
+    }
+    .featured-post-list > li:nth-child(2) .portfolio-overlay h3, .featured-post-list > li:nth-child(3) .portfolio-overlay h3 {
+        font-size: 1.25em;
+    }
+    .post-meta {
+        font-size: 0.5em; 
+    }
+    a.hollow-button {
+        font-size: .8em;
     }
 }
