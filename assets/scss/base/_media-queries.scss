@@ -142,9 +142,20 @@
     .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
         padding-top: 5%;
     }
+    .site-footer p {
+        font-size: .8em;
+    }
 }
 
 @media (max-width: 454px) {
+    
+    .hero {
+        h1 {
+            font-size: 60px!important;
+            margin-bottom: 0;
+            line-height: 88px;
+        }
+    }
     
     .featured-post-list > li .portfolio-item .portfolio-overlay a {
         line-height: 2em;
