@@ -5900,6 +5900,9 @@ a {
   .bottom-portfolio-item .portfolio-overlay h4 {
     font-size: 1.25em; } }
 @media (max-width: 767px) {
+  .hero {
+    min-height: 2px !important; }
+
   .hero-nav-bar.wrapper {
     padding: 0 2em; }
 
@@ -5924,6 +5927,23 @@ a {
     font-size: 80px !important; }
   .hero h2 {
     font-size: 1.7em; } }
+@media (max-width: 565px) {
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+    padding-top: 5%; } }
+@media (max-width: 454px) {
+  .featured-post-list > li .portfolio-item .portfolio-overlay a {
+    line-height: 2em;
+    border: 3px solid #fff;
+    padding: .5em 1em; }
+
+  .featured-post-list > li:nth-child(1) .portfolio-overlay {
+    padding-top: 10%; }
+
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+    padding-top: 5%; } }
+@media (max-width: 363px) {
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+    padding-top: 1%; } }
 body {
   background-color: white; }
 
