@@ -32,7 +32,7 @@
 @media screen and ( min-height: 860px ){
     
     .hero {
-        min-height: 0;
+        min-height: 0!important;
         height: 800px!important;
     }
 }
