@@ -5918,7 +5918,8 @@ a {
     opacity: 0.95; }
 
   .site-footer {
-    margin-top: 320px; } }
+    margin-top: 300px;
+    padding-top: 20px; } }
 body {
   background-color: white; }
 
