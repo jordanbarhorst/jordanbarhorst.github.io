@@ -5924,7 +5924,7 @@ a {
     opacity: 0.95; } }
 @media (max-width: 700px) {
   .hero h1 {
-    font-size: 80px; }
+    font-size: 80px !important; }
   .hero h2 {
     font-size: 1.7em; } }
 body {
