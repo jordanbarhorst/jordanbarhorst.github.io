@@ -97,6 +97,10 @@
         padding: 0 2em;
     }
     
+    .featured-post-list {
+        max-height: auto;
+    }
+    
     .featured-post-list > li {
         width: 100%!important;
         max-width: 100%!important;
@@ -116,7 +120,5 @@
     }
     
     .site-footer {
-        margin-top: 280px;
-        padding-top: 50px!important;
     }
 }

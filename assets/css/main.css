@@ -5903,6 +5903,9 @@ a {
   .hero-nav-bar.wrapper {
     padding: 0 2em; }
 
+  .featured-post-list {
+    max-height: auto; }
+
   .featured-post-list > li {
     width: 100% !important;
     max-width: 100% !important;
@@ -5915,11 +5918,7 @@ a {
     display: none; }
 
   .featured-post-list > li .portfolio-item .portfolio-overlay {
-    opacity: 0.95; }
-
-  .site-footer {
-    margin-top: 280px;
-    padding-top: 50px !important; } }
+    opacity: 0.95; } }
 body {
   background-color: white; }
 
