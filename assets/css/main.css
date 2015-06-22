@@ -5850,7 +5850,7 @@ a {
     color: #2c5999;
     outline: none; }
 
-@media screen and (max-height: 720px) and (min-width: 767px) {
+@media screen and (max-height: 720px) {
   .hero {
     min-height: 90vh; }
 
