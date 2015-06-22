@@ -5904,7 +5904,7 @@ a {
     padding: 0 2em; }
 
   .featured-post-list {
-    max-height: 99999px; }
+    max-height: 99999px !important; }
 
   .featured-post-list > li {
     width: 100% !important;
