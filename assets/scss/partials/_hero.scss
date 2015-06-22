@@ -6,6 +6,7 @@
   color: #fff;
   padding: 1.5em 0 3em;
   min-height: 90vh;
+  
     
     
 .hero-content {
@@ -70,35 +71,4 @@
     float: right;
     margin-left: 20px;
   }
-}
-
-@media screen and ( max-height: 720px ){
-    
-    .hero {
-        min-height: 90vh;
-    }
-    
-    .hero-nav-bar.wrapper {
-        padding-bottom: 0;
-    }
-    
-    .hero-content {
-        
-        padding-top: 0;
-        
-        img {
-            margin-bottom: .5em;
-        }
-        h1 {
-            font-size: 100px;
-        }
-        
-        h2 {
-            font-size: 1.8em;
-        }
-        
-        a {
-            line-height: 5em;
-        }
-    }
 }

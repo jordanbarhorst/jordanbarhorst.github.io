@@ -1,0 +1,120 @@
+@media screen and ( max-height: 720px ){
+    
+    .hero {
+        min-height: 90vh;
+    }
+    
+    .hero-nav-bar.wrapper {
+        padding-bottom: 0;
+    }
+    
+    .hero-content {
+        
+        padding-top: 0;
+        
+        img {
+            margin-bottom: .5em;
+        }
+        h1 {
+            font-size: 100px;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+        }
+        
+        a {
+            line-height: 5em;
+        }
+    }
+}
+
+@media screen and ( min-height: 860px ){
+    
+    .hero {
+        max-height: 800px;
+    }
+}
+
+@media (max-width: 1400px) {
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+     padding-top: 6%;
+  }
+    
+ .bottom-portfolio-item .portfolio-overlay {
+      padding-top: 25%;
+ }
+}
+
+@media (max-width: 1050px) {
+    
+    .hero {
+           h1 {
+              line-height: 115px;
+              margin-bottom: .15em;
+           }
+           
+           .big-break {
+               display: none;
+           }
+       }
+    
+  .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+     padding-top: 4%;
+     
+      a {
+         line-height: 3em;
+         border: 3px solid #fff;
+         padding: .5em 1em;
+      }
+      
+      h3 {
+         font-size: 1.75em;
+      }
+    }
+    
+   .bottom-portfolio-item .portfolio-overlay {
+       
+      
+      a {
+         line-height: 3em;
+         border: 3px solid #fff;
+         padding: .5em 1em;
+         
+      }   
+       
+      h4 {
+         font-size: 1.25em;
+      }
+   }
+  }
+
+@media (max-width: 767px) {
+    
+    
+    .hero-nav-bar.wrapper {
+        padding: 0 2em;
+    }
+    
+    .featured-post-list > li {
+        width: 100%!important;
+        max-width: 100%!important;
+        min-width: 100%!important;
+    }
+    
+    .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
+        padding-top: 10%;
+    }
+    
+    .bottom-post-list {
+        display: none;
+    }
+    
+    .featured-post-list > li .portfolio-item .portfolio-overlay {
+        opacity: 0.95;
+    }
+    
+    .site-footer {
+        padding-top: 215px;
+    }
+}
