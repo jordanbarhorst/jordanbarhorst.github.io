@@ -5850,7 +5850,7 @@ a {
     color: #2c5999;
     outline: none; }
 
-@media screen and (max-height: 720px) {
+@media screen and (max-height: 720px) and (min-width: 767px) {
   .hero {
     min-height: 90vh; }
 
@@ -5900,9 +5900,6 @@ a {
   .bottom-portfolio-item .portfolio-overlay h4 {
     font-size: 1.25em; } }
 @media (max-width: 767px) {
-  .hero {
-    min-height: 0vh !important; }
-
   .hero-nav-bar.wrapper {
     padding: 0 2em; }
 

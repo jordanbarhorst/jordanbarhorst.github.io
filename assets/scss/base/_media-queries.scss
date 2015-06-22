@@ -1,4 +1,4 @@
-@media screen and ( max-height: 720px ){
+@media screen and ( max-height: 720px ) and (min-width: 767px){
     
     .hero {
         min-height: 90vh;
@@ -92,9 +92,6 @@
 
 @media (max-width: 767px) {
     
-    .hero {
-        min-height: 0vh!important;
-    }
     
     .hero-nav-bar.wrapper {
         padding: 0 2em;
