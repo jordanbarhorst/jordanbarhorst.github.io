@@ -14,14 +14,13 @@ layout: default
   </div>
   <div class="hero-content wrapper">
       <h1>{{ page.title }}</h1>
+      <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
       <h3>{{ page.subline }}</h3>
       <a href="{{ page.button-link }}" class="white hollow-button">{{ page.button-text }}</a>
   </div>
 </div>
-<div class="post">
+<div class="post wrapper">
   <header class="post-header">
-    <h3 class="post-title">{{ page.title }}</h3>
-    <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
   </header>
   <article class="post-content">
     {{ content }}
