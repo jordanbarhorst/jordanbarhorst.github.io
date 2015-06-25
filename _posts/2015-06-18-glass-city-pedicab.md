@@ -7,6 +7,8 @@ categories: [website]
 tags: [website]
 color: ffb900
 image-bottom: pedicab/bottom/pedicab-bottom.jpg
+alt-button-text: View on Dribbble
+alt-button-link: https://dribbble.com/shots/1397498-Glass-City-Pedicabs-Layout-Design
 
 ---
 
