@@ -5927,6 +5927,18 @@ a.hollow-button {
     text-decoration: none;
     cursor: pointer; }
 
+a.fbook-nav:hover {
+  color: #3c5a9c; }
+
+a.twitter-nav:hover {
+  color: #59a8df; }
+
+a.dribbble-nav:hover {
+  color: #ec4888; }
+
+a.github-nav:hover {
+  color: #d46800; }
+
 ul, ol {
   margin: 0;
   padding: 0;
