@@ -6231,16 +6231,16 @@ body {
     margin-top: 10em; }
 
 a.fbook-nav:hover {
-  color: #3c5a9c; }
+  color: #3c5a9c !important; }
 
 a.twitter-nav:hover {
-  color: #59a8df; }
+  color: #59a8df !important; }
 
 a.dribbble-nav:hover {
-  color: #ec4888; }
+  color: #ec4888 !important; }
 
 a.github-nav:hover {
-  color: #d46800; }
+  color: #d46800 !important; }
 
 .site-header {
   float: left;
