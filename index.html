@@ -28,7 +28,7 @@ layout: home
                   <span class="post-meta">{{ post.categories }}</span>
                   <h4>{{ post.title }}</h4>
                   {% if post.alt-button-link %}
-                  <a class="white hollow-button" href=" {{ post.alt-button-link }}" onMouseOver="this.style.color='#{{ post.color }}'" onMouseOut="this.style.color='#ffffff'">{{ post.alt-button-text }}</a>
+                  <a class="white hollow-button" target="_blank" href=" {{ post.alt-button-link }}" onMouseOver="this.style.color='#{{ post.color }}'" onMouseOut="this.style.color='#ffffff'">{{ post.alt-button-text }}</a>
                   {% else %}
                   <a class="white hollow-button" href="{{ post.url | prepend: site.baseurl }}" onMouseOver="this.style.color='#{{ post.color}}'" onMouseOut="this.style.color='#ffffff'">View Case Study</a>
                   {% endif %}
