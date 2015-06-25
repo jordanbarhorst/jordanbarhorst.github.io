@@ -7,7 +7,7 @@ categories: [website]
 tags: [website]
 color: ffb900
 image-bottom: pedicab/bottom/pedicab-bottom.jpg
-alt-button-text: View on Live Site
+alt-button-text: View Live Site
 alt-button-link: http://www.glasscitypedicabs.com
 
 ---
