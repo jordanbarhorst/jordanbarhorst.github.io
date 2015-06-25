@@ -7,6 +7,8 @@ categories: [identity]
 tags: [identity]
 color: a8dafa
 image-bottom: blue-robin/bottom/blue-robin-bottom.jpg
+alt-button-text: View on Dribbble
+alt-button-link: https://dribbble.com/shots/2113552-Blue-Robin-New-Logo
 
 ---
 
