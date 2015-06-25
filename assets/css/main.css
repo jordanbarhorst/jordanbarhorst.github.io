@@ -6367,8 +6367,7 @@ body {
 
 .sub-hero {
   width: 100%;
-  background-color: #d32f2f;
-  font-color: #d32f2f;
+  background-size: cover;
   text-align: center;
   color: #fff;
   padding: 1.5em 0 3em;
