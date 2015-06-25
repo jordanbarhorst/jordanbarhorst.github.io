@@ -9,6 +9,7 @@ color: 005892
 lead: True
 image-lead: harlow/square/harlow-featured.jpg
 image-wide: harlow/wide/harlow-featured.jpg
+heroimage: harlow/featured.jpg
 
 ---
 
