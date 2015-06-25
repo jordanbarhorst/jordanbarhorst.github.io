@@ -6365,6 +6365,21 @@ body {
     float: right;
     margin-left: 20px; }
 
+.sub-hero {
+  width: 100%;
+  background-color: #d32f2f;
+  font-color: #d32f2f;
+  text-align: center;
+  color: #fff;
+  padding: 1.5em 0 3em;
+  min-height: 40vh; }
+  .sub-hero .hero-content {
+    clear: both; }
+  .sub-hero h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+
 @media screen and (max-height: 720px) {
   .hero {
     min-height: 90vh; }

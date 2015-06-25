@@ -14,7 +14,7 @@
     <meta property="og:image" content="{{ site.baseurl }}/favicon-192x192.png">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#d32f2f">
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     <!-- inject:css -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
@@ -23,7 +23,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:700|Noticia+Text:400,700|Slabo+27px' rel='stylesheet' type='text/css'>
   </head>
 <body>
-     <nav class="js-menu sliding-panel-content">
+       <nav class="js-menu sliding-panel-content">
         <ul>
             {% for page in site.pages %}{% if page.title %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -36,13 +36,11 @@
             <li><a class="github-nav" target="_blank" href="http://www.github.com/jordanbarhorst">GitHub</a></li>
         </ul>
     </nav>
-  <div class="wrapper">
-    {% include header.html %}
+    {% include sub-hero.html %}
     <div class="page-content">
       {{ content }}
     </div>
     {% include footer.html %}
-  </div>
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <!-- <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
