@@ -5933,15 +5933,16 @@ ul, ol {
   list-style-type: none; }
 
 .post-content {
-  margin: 2em 0; }
+  margin: 2.5em 0; }
   .post-content h2 {
     color: #d32f2f;
     text-transform: uppercase;
-    font-family: "Tallow", "Slabo 27px", Georgia, serif;
-    font-size: 3em; }
+    font-family: "Lato";
+    font-size: 3em;
+    text-align: center; }
   .post-content p {
-    line-height: 1.4em;
-    font-size: 1em; }
+    line-height: 1.8em;
+    font-size: 1.2em; }
 
 .featured-post-list {
   float: left;

@@ -1,16 +1,17 @@
 .post-content {
-  margin: 2em 0;
+  margin: 2.5em 0;
     
     h2 {
         color: $primary;
         text-transform: uppercase;
-        font-family: $tallow;
+        font-family: $lato;
         font-size: 3em;
+        text-align: center;
     }
     
     p {
-        line-height: 1.4em;
-        font-size: 1em;
+        line-height: 1.8em;
+        font-size: 1.2em;
     }
 }
 
