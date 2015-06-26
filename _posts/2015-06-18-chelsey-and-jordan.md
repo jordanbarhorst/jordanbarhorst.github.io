@@ -4,7 +4,7 @@ title:  "Chelsey + Jordan"
 date:   2015-06-18 21:31:01
 published: True
 categories: [website]
-tags: [website]
+tags: [portfolio]
 color: 543e67
 image-wide: chelsey-and-jordan/wide/chelsey-and-jordan-featured.jpg
 heroimage: chelsey-and-jordan/featured.jpg

@@ -1,11 +1,30 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="sub-hero" style="background-image:url('/assets/img/portfolio-items/{{ page.heroimage }}');">
+  <div class="hero-nav-bar wrapper">
+      <div class="logo-spot">
+          <a href="{{ site.url }}"><img src="/assets/img/logo-white.png" alt="Jordan Barhorst - Cincinnati Web Design"></a>
+      </div>
+       <nav class="site-nav wrapper">
+              <ul>
+                  <li><a class="js-menu-trigger sliding-panel-button">Menu</a></li>
+              </ul>
+      </nav>
+  </div>
+  <div class="hero-content wrapper">
+      <!-- DATE <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span> -->
+      <span class="post-meta">{{ page.categories }}</span>
+      <h1>{{ page.title }}</h1>
+      <h3>{{ page.subline }}</h3>
+      <a href="{{ page.button-link }}" class="white hollow-button">{{ page.button-text }}</a>
+  </div>
+</div>
+<div class="post wrapper">
   <header class="post-header">
-    <h3 class="post-title">{{ page.title }}</h3>
   </header>
   <article class="post-content">
     {{ content }}
+    <hr>
   </article>
 </div>

@@ -4,7 +4,7 @@ title:  "Glass City Pedicab"
 date:   2015-06-18 18:31:01
 published: True
 categories: [website]
-tags: [website]
+tags: [portfolio]
 color: ffb900
 image-bottom: pedicab/bottom/pedicab-bottom.jpg
 alt-button-text: View Live Site

@@ -4,7 +4,7 @@ title:  "Blue Robin Botique"
 date:   2015-06-18 20:41:01
 published: True
 categories: [identity]
-tags: [identity]
+tags: [portfolio]
 color: a8dafa
 image-bottom: blue-robin/bottom/blue-robin-bottom.jpg
 alt-button-text: View on Dribbble

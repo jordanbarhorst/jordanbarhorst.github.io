@@ -4,7 +4,7 @@ title:  "Harlow Builders"
 date:   2016-06-18 23:31:01
 published: True
 categories: [website]
-tags: [website]
+tags: [portfolio]
 color: 005892
 lead: True
 image-lead: harlow/square/harlow-featured.jpg

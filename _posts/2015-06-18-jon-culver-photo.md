@@ -4,7 +4,7 @@ title:  "Jon Culver Photo"
 date:   2015-06-18 22:31:01
 published: True
 categories: [website]
-tags: [website]
+tags: [portfolio]
 color: 388e3c
 image-lead: jon-culver/square/jon-culver-featured.jpg
 image-wide: jon-culver/wide/jon-culver-featured.jpg
