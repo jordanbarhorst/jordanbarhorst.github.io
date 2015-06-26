@@ -8,10 +8,6 @@ tags: [website]
 color: 388e3c
 image-lead: jon-culver/square/jon-culver-featured.jpg
 image-wide: jon-culver/wide/jon-culver-featured.jpg
-heroimage: jon-culver/featured.jpg
-
-subline: Jon Culver is an awesome photographer in Northwestern Ohio. He also happens to be my best friend and ocassional business partner. I created a logo and website to show off his work to potential clients.
-
 alt-button-text: View the Live Site
 alt-button-link: http://www.jonathanculverphoto.com
 
