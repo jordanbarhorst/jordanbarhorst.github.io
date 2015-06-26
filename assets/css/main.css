@@ -5936,7 +5936,7 @@ ul, ol {
   margin: 2.5em 0; }
   .post-content h2 {
     color: #d32f2f;
-    font-size: 2.8em;
+    font-size: 5em;
     text-align: center;
     font-weight: 700; }
   .post-content p {
@@ -5944,12 +5944,12 @@ ul, ol {
     font-size: 1.2em; }
     .post-content p.caption {
       font-size: .9em;
-      font-color: gray;
+      font-color: #999999;
       font-style: italic;
-      margin-bottom: 2.5em;
+      margin-bottom: 4em;
       text-align: right; }
   .post-content img {
-    margin-top: 2.5em; }
+    margin-top: 4em; }
 
 .featured-post-list {
   float: left;

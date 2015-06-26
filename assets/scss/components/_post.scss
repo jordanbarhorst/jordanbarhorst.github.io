@@ -3,7 +3,7 @@
     
     h2 {
         color: $primary;
-        font-size: 2.8em;
+        font-size: 5em;
         text-align: center;
         font-weight: 700;
     }
@@ -14,15 +14,15 @@
         
         &.caption {
             font-size: .9em;
-            font-color: lighten($base-font-color, 30%);
+            font-color: lighten($base-font-color, 40%);
             font-style: italic;
-            margin-bottom: 2.5em;
+            margin-bottom: 4em;
             text-align: right;
         }
     }
     
     img {
-        margin-top: 2.5em;
+        margin-top: 4em;
     }
 }
 
