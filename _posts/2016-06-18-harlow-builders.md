@@ -39,4 +39,7 @@ The design of the site is simple, and shows off the company’s most important a
 
 Each page also has a contact form, which is something that was missing from this company’s otherwise awesome way of doing business. If its one thing I’ve learned in my experience designing sites for companies like these, its that a simple contact form on your website can do wonders. In today’s world, people are a lot more likely to fill out a ‘Contact Us’ form than they are to pick up the phone and call, especially after hours. This allows Harlow to stay connected to their users, even when there’s no one in the office. 
 
+![Contact Form](http://www.jordanbarhorst.com/assets/img/portfolio-items/harlow/case-study/contact-form.jpg)
+<p class="caption">A handy contact form at the bottom of each home design page make it easy for customers to keep in touch with the company. Individual Agent information makes this more personal.</p>
+
 Overall, Harlow Builders was an ideal customer. Unlike a lot of people who need a website, Harlow was a company with a very prestigious track record that I was able to add to by implementing a basic web presence. The team at Harlow now have an easy to use solution to handle potential clients that aren’t calling or walking in their office. I’m very interested to see just how this website effects their business.
