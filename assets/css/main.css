@@ -5933,7 +5933,7 @@ ul, ol {
   list-style-type: none; }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin: 2em 0; }
 
 .featured-post-list {
   float: left;

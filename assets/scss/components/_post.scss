@@ -1,3 +1,10 @@
 .post-content {
-  margin-bottom: $gutter;
+  margin: 2em 0;
+    
+    h2 {
+        color: $primary;
+        text-transform: uppercase;
+        
+    }
 }
+

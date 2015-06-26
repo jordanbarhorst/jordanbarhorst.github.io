@@ -18,7 +18,7 @@ button-link: http://www.harlowbuilders.com/dev
 
 ---
 
-#Table Layouts, Broken Links, and Outdated Imagery, Oh My!
+##Table Layouts, Broken Links, and Outdated Imagery, Oh My!
 
 When a client reaches out to me for help with the presence online, Google is always my first step. When I searched for Harlow Builders and visited their website, it was like I hopped into a time machine and was taken back to 1999. Every page featured some sort of ‘Under Construction’ text that was placed there nearly a decade ago. Table layouts, broken links and outdated imagery, oh my!
 
