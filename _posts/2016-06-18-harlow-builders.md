@@ -21,6 +21,7 @@ button-link: http://www.harlowbuilders.com/dev
 ##Table Layouts, Broken Links, and Outdated Imagery, Oh My!
 
 When a client reaches out to me for help with the presence online, Google is always my first step. When I searched for Harlow Builders and visited their website, it was like I hopped into a time machine and was taken back to 1999. Every page featured some sort of ‘Under Construction’ text that was placed there nearly a decade ago. Table layouts, broken links and outdated imagery, oh my!
+![Old Harlow Builders site design](http://www.jordanbarhorst.com/assets/img/portfolio-items/harlow/case-study/old-home.jpg)
 
 Talking with Frank Harlow, president of Harlow Builders Inc, it was clear that a web presence wasn’t their number one priority. Working in a small town like Troy, Ohio definitely has its benefits when it comes to doing business. In towns like these, its all about who you know, and Frank knows just about everyone. Business is booming without a website, so the idea of having a great website to help an already strong company is an enticing one. 
 
