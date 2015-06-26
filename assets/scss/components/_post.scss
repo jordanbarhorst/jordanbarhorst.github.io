@@ -1,9 +1,9 @@
 .post-content {
-  margin: 2.5em 0;
+  margin: 5em 0;
     
     h2 {
         color: $primary;
-        font-size: 5em;
+        font-size: 2.5em;
         text-align: center;
         font-weight: 700;
     }
@@ -17,7 +17,6 @@
             font-color: lighten($base-font-color, 40%);
             font-style: italic;
             margin-bottom: 4em;
-            text-align: right;
         }
     }
     
