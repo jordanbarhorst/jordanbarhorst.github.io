@@ -14,9 +14,15 @@
         
         &.caption {
             font-size: .9em;
-            font-color: lighten($base-font-color, 20%);
+            font-color: lighten($base-font-color, 30%);
             font-style: italic;
+            margin-bottom: 2.5em;
+            text-align: right;
         }
+    }
+    
+    img {
+        margin-top: 2.5em;
     }
 }
 

@@ -5944,8 +5944,12 @@ ul, ol {
     font-size: 1.2em; }
     .post-content p.caption {
       font-size: .9em;
-      font-color: #666666;
-      font-style: italic; }
+      font-color: gray;
+      font-style: italic;
+      margin-bottom: 2.5em;
+      text-align: right; }
+  .post-content img {
+    margin-top: 2.5em; }
 
 .featured-post-list {
   float: left;
