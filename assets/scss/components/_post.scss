@@ -4,7 +4,12 @@
     h2 {
         color: $primary;
         text-transform: uppercase;
-        
+        font-family: $tallow;
+    }
+    
+    p {
+        line-height: 1.4em;
+        font-size: 1em;
     }
 }
 
