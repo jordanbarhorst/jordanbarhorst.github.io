@@ -3,7 +3,7 @@
     
     h2 {
         color: $primary;
-        font-size: 3em;
+        font-size: 2.8em;
         text-align: center;
         font-weight: 700;
     }
@@ -11,6 +11,12 @@
     p {
         line-height: 1.8em;
         font-size: 1.2em;
+        
+        &.caption {
+            font-size: .9em;
+            font-color: lighten($base-font-color, 20%);
+            font-style: italic;
+        }
     }
 }
 

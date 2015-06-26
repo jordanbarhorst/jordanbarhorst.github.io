@@ -5936,12 +5936,16 @@ ul, ol {
   margin: 2.5em 0; }
   .post-content h2 {
     color: #d32f2f;
-    font-size: 3em;
+    font-size: 2.8em;
     text-align: center;
     font-weight: 700; }
   .post-content p {
     line-height: 1.8em;
     font-size: 1.2em; }
+    .post-content p.caption {
+      font-size: .9em;
+      font-color: #666666;
+      font-style: italic; }
 
 .featured-post-list {
   float: left;
