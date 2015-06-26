@@ -12,8 +12,8 @@ heroimage: jon-culver/featured.jpg
 
 subline: Jon Culver is an awesome photographer in Northwestern Ohio. He also happens to be my best friend and ocassional business partner. I created a logo and website to show off his work to potential clients.
 
-button-text: View the Live Site
-button-link: http://www.jonathanculverphoto.com
+alt-button-text: View the Live Site
+alt-button-link: http://www.jonathanculverphoto.com
 
 ---
 
