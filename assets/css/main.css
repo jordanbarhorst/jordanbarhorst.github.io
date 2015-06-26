@@ -5950,6 +5950,9 @@ ul, ol {
       margin-bottom: 4em; }
   .post-content img {
     margin-top: 2.8em; }
+  .post-content hr {
+    width: 25%;
+    color: #d32f2f; }
 
 .featured-post-list {
   float: left;
