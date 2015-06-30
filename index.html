@@ -27,7 +27,7 @@ layout: home
       {% for post in site.posts offset:3 limit:4  %}
       <li>
           <div class="bottom-portfolio-item">
-              <img src="assets/img/portfolio-items/{{ post.image-bottom }}" alt="{{ post.title }}">
+              <img src="/assets/img/portfolio-items/{{ post.image-bottom }}" alt="{{ post.title }}">
               <span class="portfolio-overlay" style="background-color: #{{ post.color }};">
                   <span class="post-meta">{{ post.categories }}</span>
                   <h4>{{ post.title }}</h4>

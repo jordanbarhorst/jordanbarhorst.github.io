@@ -13,7 +13,7 @@ subline: Below you'll find a collection of design work I've done for previous em
 <div class="work wrapper">
     {% for post in site.tags['portfolio'] %}
         <div class="work-portfolio-item">
-           <img src="assets/img/portfolio-items/{{ post.portfolio-grid-photo }}" alt="{{post.title}}">
+           <img src="/assets/img/portfolio-items/{{ post.portfolio-grid-photo }}" alt="{{post.title}}">
             <span class="portfolio-overlay" style="background-color:#{{ post.color }};">
                 <span class="post-meta">{{ post.categories }}</span>
                 <h3>{{ post.title }}</h3>
