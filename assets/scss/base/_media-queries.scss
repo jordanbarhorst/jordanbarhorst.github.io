@@ -181,8 +181,15 @@
     .work-portfolio-item {
      @include span-columns(4);
         
+        h3 {
+            font-size: 1.4em;
+        }
+        
+        a.hollow-button {
+            font-size: .9em;
+        }
         .portfolio-overlay {
-            opacity: .75;
+            opacity: .9;
         }
     }
 }
