@@ -174,8 +174,11 @@
             }
         }
     
-       .post-content img {
+       .post-content {
+           
+           img {
            padding-top: 0!important;
            margin-top: 0!important;
+           }
        }
 }
