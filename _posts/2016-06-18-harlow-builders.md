@@ -10,6 +10,7 @@ lead: True
 image-lead: harlow/square/harlow-featured.jpg
 image-wide: harlow/wide/harlow-featured.jpg
 heroimage: harlow/featured.jpg
+portfolio-grid-photo: harlow/work/portfolio-item.jpg
 
 subline: Harlow Builders is an award winning home construction company based in Troy, Ohio. I helped Harlow increase their web presence by creating them a new website.
 

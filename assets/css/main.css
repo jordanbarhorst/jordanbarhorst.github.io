@@ -6263,6 +6263,14 @@ a.dribbble-nav:hover {
 a.github-nav:hover {
   color: #d46800 !important; }
 
+.work-portfolio-item {
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 28.20513%; }
+  .work-portfolio-item:last-child {
+    margin-right: 0; }
+
 .site-header {
   float: left;
   display: block;
