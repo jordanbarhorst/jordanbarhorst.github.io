@@ -6086,6 +6086,7 @@ ul, ol {
     .work-portfolio-item .portfolio-overlay a {
       line-height: 5em; }
     .work-portfolio-item .portfolio-overlay h3 {
+      font-size: 1.6em;
       font-weight: 700; }
   .work-portfolio-item img {
     padding-top: 0 !important;
