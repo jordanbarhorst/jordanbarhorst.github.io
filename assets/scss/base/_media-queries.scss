@@ -232,7 +232,7 @@
      @include span-columns(9);
         
      .portfolio-overlay {
-         padding-top: 15%;
+         padding-top: 20%;
      }
     }
     
@@ -244,7 +244,7 @@
             .work-portfolio-item {
                 .portfolio-overlay {
                     h3 {
-                        font-size: 1.6em;
+                        font-size: 2em;
                     }
                     a.hollow-button {
                         font-size: .9em;
