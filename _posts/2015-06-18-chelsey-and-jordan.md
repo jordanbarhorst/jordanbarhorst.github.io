@@ -8,6 +8,7 @@ tags: [portfolio]
 color: 543e67
 image-wide: chelsey-and-jordan/wide/chelsey-and-jordan-featured.jpg
 heroimage: chelsey-and-jordan/featured.jpg
+portfolio-grid-photo: chelsey-and-jordan/work/portfolio-item.jpg
 
 subline: Chelsey and I are getting married on October 3rd, 2015. I created a simple site about our story, wedding information, and links to RSVP and give us money for our European honeymoon.
 

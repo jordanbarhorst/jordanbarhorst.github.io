@@ -7,6 +7,7 @@ categories: [website]
 tags: [portfolio]
 color: ffb900
 image-bottom: pedicab/bottom/pedicab-bottom.jpg
+portfolio-grid-photo: pedicab/work/portfolio-item.jpg
 alt-button-text: View Live Site
 alt-button-link: http://www.glasscitypedicabs.com
 

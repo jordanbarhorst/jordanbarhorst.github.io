@@ -7,6 +7,7 @@ categories: [identity]
 tags: [portfolio]
 color: a8dafa
 image-bottom: blue-robin/bottom/blue-robin-bottom.jpg
+portfolio-grid-photo: blue-robin/work/portfolio-item.jpg
 alt-button-text: View on Dribbble
 alt-button-link: https://dribbble.com/shots/2113552-Blue-Robin-New-Logo
 
