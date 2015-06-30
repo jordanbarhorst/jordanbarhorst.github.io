@@ -6595,6 +6595,9 @@ a.github-nav:hover {
     margin-bottom: 0;
     line-height: 88px; }
 
+  .sub-hero h1 {
+    font-size: 60px; }
+
   .featured-post-list > li .portfolio-item .portfolio-overlay a {
     line-height: 2em;
     border: 3px solid #fff;
