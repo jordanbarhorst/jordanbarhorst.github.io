@@ -6086,6 +6086,9 @@ ul, ol {
       line-height: 5em; }
     .work-portfolio-item .portfolio-overlay h3 {
       font-weight: 700; }
+  .work-portfolio-item .post-content img {
+    padding: 0;
+    margin-top: 2.8em; }
 
 .site-footer {
   float: left;
