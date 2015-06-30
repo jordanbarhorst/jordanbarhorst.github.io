@@ -147,6 +147,7 @@
      @include span-columns(3);
      position: relative;
      text-align: center;
+     margin-top: 2.8em;
          
      .portfolio-overlay {
           position: absolute;
@@ -175,6 +176,5 @@
     
        .post-content img {
            padding: 0;
-           margin-top: 2.8em;
        }
 }

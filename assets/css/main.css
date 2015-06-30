@@ -6066,7 +6066,8 @@ ul, ol {
   margin-right: 2.5641%;
   width: 28.20513%;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  margin-top: 2.8em; }
   .work-portfolio-item:last-child {
     margin-right: 0; }
   .work-portfolio-item .portfolio-overlay {
@@ -6087,8 +6088,7 @@ ul, ol {
     .work-portfolio-item .portfolio-overlay h3 {
       font-weight: 700; }
   .work-portfolio-item .post-content img {
-    padding: 0;
-    margin-top: 2.8em; }
+    padding: 0; }
 
 .site-footer {
   float: left;
