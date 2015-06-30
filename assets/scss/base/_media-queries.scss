@@ -194,6 +194,7 @@
     }
     
     .post {
+        padding-left: 2em;
         .post-content {
             margin: 0;
             
@@ -223,6 +224,12 @@
         h2 {
             font-size: 1.7em;
         }
+    }
+}
+
+@media (max-width: 640) {
+    .work-portfolio-item {
+     @include span-columns(9);
     }
 }
 

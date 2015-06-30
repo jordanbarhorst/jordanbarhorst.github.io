@@ -6550,17 +6550,27 @@ a.github-nav:hover {
     .work-portfolio-item .portfolio-overlay {
       opacity: .9; }
 
-  .post .post-content {
-    margin: 0; }
-    .post .post-content .work-portfolio-item .portfolio-overlay h3 {
-      font-size: 1.25em; }
-    .post .post-content .work-portfolio-item .portfolio-overlay a.hollow-button {
-      font-size: .9em; } }
+  .post {
+    padding-left: 2em; }
+    .post .post-content {
+      margin: 0; }
+      .post .post-content .work-portfolio-item .portfolio-overlay h3 {
+        font-size: 1.25em; }
+      .post .post-content .work-portfolio-item .portfolio-overlay a.hollow-button {
+        font-size: .9em; } }
 @media (max-width: 700px) {
   .hero h1 {
     font-size: 80px !important; }
   .hero h2 {
     font-size: 1.7em; } }
+@media (max-width: 640) {
+  .work-portfolio-item {
+    float: left;
+    display: block;
+    margin-right: 2.5641%;
+    width: 89.74359%; }
+    .work-portfolio-item:last-child {
+      margin-right: 0; } }
 @media (max-width: 565px) {
   .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
     padding-top: 5%; }
