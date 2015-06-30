@@ -6088,7 +6088,7 @@ ul, ol {
     .work-portfolio-item .portfolio-overlay h3 {
       font-weight: 700; }
   .work-portfolio-item .post-content img {
-    padding: 0; }
+    padding: 0 !important; }
 
 .site-footer {
   float: left;
