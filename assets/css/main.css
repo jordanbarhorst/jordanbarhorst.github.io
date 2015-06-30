@@ -6563,7 +6563,7 @@ a.github-nav:hover {
     font-size: 80px !important; }
   .hero h2 {
     font-size: 1.7em; } }
-@media (max-width: 640) {
+@media (max-width: 640px) {
   .work-portfolio-item {
     float: left;
     display: block;
