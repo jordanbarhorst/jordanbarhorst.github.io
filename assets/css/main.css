@@ -6065,7 +6065,8 @@ ul, ol {
   display: block;
   margin-right: 2.5641%;
   width: 28.20513%;
-  position: relative; }
+  position: relative;
+  text-align: center; }
   .work-portfolio-item:last-child {
     margin-right: 0; }
   .work-portfolio-item .portfolio-overlay {

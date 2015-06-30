@@ -146,6 +146,7 @@
 .work-portfolio-item {
      @include span-columns(3);
      position: relative;
+     text-align: center;
          
      .portfolio-overlay {
           position: absolute;
