@@ -6060,6 +6060,32 @@ ul, ol {
   .see-more h1 {
     font-size: 48px; }
 
+.work-portfolio-item {
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 28.20513%;
+  position: relative; }
+  .work-portfolio-item:last-child {
+    margin-right: 0; }
+  .work-portfolio-item .portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 30%;
+    width: 100%;
+    transition: opacity ease .5s; }
+    .work-portfolio-item .portfolio-overlay:hover {
+      opacity: .95; }
+    .work-portfolio-item .portfolio-overlay a {
+      line-height: 5em; }
+    .work-portfolio-item .portfolio-overlay h3 {
+      font-weight: 700; }
+
 .site-footer {
   float: left;
   display: block;
@@ -6262,14 +6288,6 @@ a.dribbble-nav:hover {
 
 a.github-nav:hover {
   color: #d46800 !important; }
-
-.work-portfolio-item {
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 28.20513%; }
-  .work-portfolio-item:last-child {
-    margin-right: 0; }
 
 .site-header {
   float: left;

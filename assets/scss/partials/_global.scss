@@ -123,8 +123,3 @@ a.dribbble-nav:hover {
 a.github-nav:hover {
     color: #d46800!important;
 }
-
-
-.work-portfolio-item {
-     @include span-columns(3)
-}
