@@ -6575,7 +6575,7 @@ a.github-nav:hover {
       padding-top: 15%; }
 
   .post {
-    padding-left: .5em; }
+    padding-left: 0; }
     .post .post-content .work-portfolio-item .portfolio-overlay h3 {
       font-size: 1.6em; }
     .post .post-content .work-portfolio-item .portfolio-overlay a.hollow-button {
