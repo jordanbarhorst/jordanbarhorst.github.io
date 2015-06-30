@@ -180,6 +180,10 @@
     
     .work-portfolio-item {
      @include span-columns(4);
+        
+        .portfolio-overlay {
+            opacity: .75;
+        }
     }
 }
 

@@ -6542,7 +6542,9 @@ a.github-nav:hover {
     margin-right: 2.5641%;
     width: 38.46154%; }
     .work-portfolio-item:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .work-portfolio-item .portfolio-overlay {
+      opacity: .75; } }
 @media (max-width: 700px) {
   .hero h1 {
     font-size: 80px !important; }
