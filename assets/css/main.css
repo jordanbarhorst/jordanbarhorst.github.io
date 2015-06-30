@@ -6605,6 +6605,9 @@ a.github-nav:hover {
 
   .work-portfolio-item .portfolio-overlay h3 {
     font-size: 1.65em; } }
+@media (max-width: 400px) {
+  .work-portfolio-item .portfolio-overlay h3 {
+    font-size: 1.2em; } }
 @media (max-width: 363px) {
   .featured-post-list > li:nth-child(2) .portfolio-overlay, .featured-post-list > li:nth-child(3) .portfolio-overlay {
     padding-top: 3%; }
