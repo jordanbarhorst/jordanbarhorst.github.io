@@ -88,7 +88,61 @@
          font-size: 1.25em;
       }
    }
+    
+    .sub-hero {
+        .hero-content {
+            h3 {
+                font-size: 1.7em;
+            }
+            
+        }
+    }
+    
+    .post {
+        .post-content {
+            margin: 0;
+            
+            .work-portfolio-item {
+                .portfolio-overlay {
+                    h3 {
+                        font-size: 1.2em;
+                    }
+                    
+                    a {
+                        line-height: 3em;
+                        
+                        &.hollow-button {
+                            padding: .5em;
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+    }
   }
+
+@media (max-width: 848px) {
+    .post {
+        .post-content {
+            margin: 0;
+            
+            .work-portfolio-item {
+                .portfolio-overlay {
+                    h3 {
+                        font-size: 1em;
+                    }
+                    a.hollow-button {
+                        font-size: .75em;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+}
 
 @media (max-width: 767px) {
     
@@ -123,6 +177,9 @@
     
     .site-footer {
     }
+    
+    .work-portfolio-item {
+     @include span-columns(12);
 }
 
 @media (max-width: 700px) {
